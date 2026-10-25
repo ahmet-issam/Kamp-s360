@@ -48,3 +48,6 @@ jobs:
       - name: Analyze feature files with Flutter and plugin
         working-directory: task_flutter_check
         run: flutter analyze lib/core/task_rules.dart lib/core/task_reminder_service.dart lib/features/agenda_screen.dart lib/features/notifications_screen.dart
+      - name: Test native scheduling reconciliation with mocked platform channel
+        working-directory: task_flutter_check
+        run: flutter test

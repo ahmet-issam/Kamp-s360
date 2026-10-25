@@ -176,6 +176,17 @@ def main():
             text = add_import(text, 'import UserNotifications')
             text = text.replace(marker, 'if #available(iOS 10.0, *) {\n      ' + line + '\n    }\n    ' + marker, 1)
         updates.append((delegate, text))
+    objc = root / 'ios/Runner/AppDelegate.m'
+    if not delegate.exists() and objc.exists():
+        text = objc.read_text(encoding='utf-8')
+        line = '[UNUserNotificationCenter currentNotificationCenter].delegate = (id<UNUserNotificationCenterDelegate>) self;'
+        if line not in text:
+            marker = '[GeneratedPluginRegistrant registerWithRegistry:self];'
+            if marker not in text:
+                raise ValueError('iOS Objective-C AppDelegate layout differs. No files changed.')
+            text = add_import(text, '#import <UserNotifications/UserNotifications.h>')
+            text = text.replace(marker, 'if (@available(iOS 10.0, *)) {\n    ' + line + '\n  }\n  ' + marker, 1)
+        updates.append((objc, text))
     updates = [(path, text) for path, text in updates if not path.exists() or path.read_text(encoding='utf-8') != text]
     print('Files to update:', len(updates))
     for path, _ in updates:

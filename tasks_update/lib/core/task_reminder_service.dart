@@ -49,6 +49,22 @@ class TaskReminderService extends ChangeNotifier with WidgetsBindingObserver {
     _initialization = _initialize();
   }
 
+  Future<void> stop() async {
+    _timer?.cancel();
+    _timer = null;
+    _app?.removeListener(_onChange);
+    _app = null;
+    WidgetsBinding.instance.removeObserver(this);
+    await _initialization;
+    final request = ++_generation;
+    if (_ready) {
+      _queue = _queue.then((_) => _reconcile([], request));
+      await _queue;
+    }
+    _fingerprint = null;
+    openedTaskId.value = null;
+  }
+
   Future<void> _initialize() async {
     if (!supported) {
       return;

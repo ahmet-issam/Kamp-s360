@@ -123,3 +123,4 @@ for relative, content in files.items():
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding='utf-8')
 print(root)
+shutil.copytree(source / 'test_support/tests', root / 'test', dirs_exist_ok=True)

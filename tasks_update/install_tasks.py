@@ -135,6 +135,23 @@ def patch_gradle(text, kotlin):
     return text
 
 
+def patch_swift_delegate(text):
+    line = 'UNUserNotificationCenter.current().delegate = self as? UNUserNotificationCenterDelegate'
+    if line in text:
+        return text
+    setup = '\n    if #available(iOS 10.0, *) {\n      ' + line + '\n    }\n'
+    pattern = r'(override\s+func\s+application\s*\([\s\S]*?didFinishLaunchingWithOptions[\s\S]*?\)\s*->\s*Bool\s*\{)'
+    if re.search(pattern, text):
+        text = re.sub(pattern, lambda match: match[0] + setup, text, count=1)
+    else:
+        pattern = r'(class\s+AppDelegate\s*:\s*FlutterAppDelegate[^\{]*\{)'
+        if 'didFinishLaunchingWithOptions' in text or not re.search(pattern, text):
+            raise ValueError('Custom iOS delegate requires review. No files changed.')
+        method = '\n  override func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {' + setup + '    return super.application(application, didFinishLaunchingWithOptions: launchOptions)\n  }\n'
+        text = re.sub(pattern, lambda match: match[0] + method, text, count=1)
+    return add_import(text, 'import UserNotifications')
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--apply', action='store_true')
@@ -167,15 +184,7 @@ def main():
             '<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@drawable/ic_task_notification"/>\n'))
     delegate = root / 'ios/Runner/AppDelegate.swift'
     if delegate.exists():
-        text = delegate.read_text(encoding='utf-8')
-        line = 'UNUserNotificationCenter.current().delegate = self as? UNUserNotificationCenterDelegate'
-        if line not in text:
-            marker = 'GeneratedPluginRegistrant.register(with: self)'
-            if marker not in text:
-                raise ValueError('iOS AppDelegate layout differs. No files changed.')
-            text = add_import(text, 'import UserNotifications')
-            text = text.replace(marker, 'if #available(iOS 10.0, *) {\n      ' + line + '\n    }\n    ' + marker, 1)
-        updates.append((delegate, text))
+        updates.append((delegate, patch_swift_delegate(delegate.read_text(encoding='utf-8'))))
     objc = root / 'ios/Runner/AppDelegate.m'
     if not delegate.exists() and objc.exists():
         text = objc.read_text(encoding='utf-8')

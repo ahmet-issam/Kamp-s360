@@ -1,0 +1,31 @@
+name: Check schedule rules
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - schedule_update/**
+      - .github/workflows/check-schedule.yml
+  pull_request:
+    paths:
+      - schedule_update/**
+      - .github/workflows/check-schedule.yml
+permissions:
+  contents: read
+jobs:
+  rules:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: '3.10.8'
+      - name: Parse Flutter screen syntax
+        run: dart format --output=none schedule_update/lib/features/schedule_screen.dart
+      - name: Test rules against existing model snapshot
+        run: |
+          cp schedule_update/test_support/models.dart schedule_update/lib/core/models.dart
+          dart analyze schedule_update/lib/core/schedule_rules.dart schedule_update/scripts/test_schedule_rules.dart
+          dart schedule_update/scripts/test_schedule_rules.dart

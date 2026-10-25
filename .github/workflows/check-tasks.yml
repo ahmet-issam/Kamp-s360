@@ -1,0 +1,50 @@
+name: Check tasks and reminders
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - tasks_update/**
+      - .github/workflows/check-tasks.yml
+  pull_request:
+    paths:
+      - tasks_update/**
+      - .github/workflows/check-tasks.yml
+permissions:
+  contents: read
+jobs:
+  rules:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: '3.10.8'
+      - name: Check rules against original model snapshot
+        run: |
+          cp tasks_update/test_support/models.dart tasks_update/lib/core/models.dart
+          dart analyze tasks_update/lib/core/task_rules.dart tasks_update/scripts/test_task_rules.dart
+          dart tasks_update/scripts/test_task_rules.dart
+      - name: Check Dart syntax
+        run: dart format --output=none tasks_update/lib
+  flutter-api:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Prepare explicit app-interface fixtures
+        run: python tasks_update/test_support/prepare_flutter_harness.py
+      - name: Resolve actual notification plugin APIs
+        working-directory: task_flutter_check
+        run: flutter pub get
+      - name: Analyze feature files with Flutter and plugin
+        working-directory: task_flutter_check
+        run: flutter analyze lib/core/task_rules.dart lib/core/task_reminder_service.dart lib/features/agenda_screen.dart lib/features/notifications_screen.dart

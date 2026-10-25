@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "source_url": "https://sks.bingol.edu.tr/yemek-listesi",
+  "checked_at": "2026-10-25T09:49:54.101816+00:00",
+  "items": [
+    {
+      "date": "2026-10-01",
+      "dishes": [
+        "PATLICAN MUSAKKA",
+        "BULGUR PİLAVI",
+        "OSMANLI ÇORBASI",
+        "CACIK"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "dishes": [
+        "ORMAN KEBABI",
+        "ŞEHRİYELİ PİRİNÇ PİLAVI",
+        "ERZİNCAN ÇOEBASI",
+        "ŞEKERPARE"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "dishes": [
+        "ETLİ NOHUT",
+        "PİRİNÇ PİLAVI",
+        "KREMALI MANTAR ÇORBASI",
+        "TURŞU"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "dishes": [
+        "PİLİÇ BAGET HAŞLAMA",
+        "CEVİZLİ ERİŞTE",
+        "KAŞARLI DOMATES ÇORBASI",
+        "MEVSİM SALATASI"
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "dishes": [
+        "KURU KÖFTE(TURŞU GARNİLİ)",
+        "SOSLU MAKARNA",
+        "TEL ŞEHRİYE ÇORBASI",
+        "AYRAN"
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "dishes": [
+        "ÇOBAN KAVURMA",
+        "PİRİNÇ PİLAVI",
+        "EZOGELİN ÇORBASI",
+        "CEVİZLİ BAKLAVA"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "dishes": [
+        "KIYMALI PATATES OTURTMA",
+        "YOĞURTLU MANTI",
+        "DÜĞÜN ÇORBASI",
+        "ÜZÜM"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "dishes": [
+        "TAVUK ŞİNİTZEL/TURŞU GARNİ",
+        "KARIŞIK KIZARTMA",
+        "TEL ŞEHRİYE ÇORBASI",
+        "AYRAN"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "dishes": [
+        "İZMİR KÖFTE",
+        "ARPA ŞEHRİYE PİLAVI",
+        "EZOGELİN ÇORBA",
+        "ŞEFTALİ"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "dishes": [
+        "MEVSİM TÜRLÜ",
+        "NOHUTLU PİRİNÇ PİLAVI",
+        "MERCİMEK ÇORBASI",
+        "TULUMBA TATLISI"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "dishes": [
+        "PİLİÇ KÜLBASTI(SEBZE GARNİLİ)",
+        "YOĞURTLU MANTI",
+        "KAŞARLI DOMATES ÇORBASI",
+        "SALATA"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "dishes": [
+        "ET SOTE",
+        "GÖKKUŞAĞI PİLAVI",
+        "YAYLA ÇORBASI",
+        "MEYVE SUYU"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "dishes": [
+        "ETSİZ KURU FASULYE",
+        "PİRİNÇ PİLAVI",
+        "TURŞU",
+        "CACIK"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "dishes": [
+        "TAVUK KAVURMA",
+        "PEYNİRLİ MAKARNA",
+        "KAŞARLI DOMATES ÇORBASI",
+        "RUS SALATASI"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "dishes": [
+        "KIYMALI PİDE",
+        "MEVSİM SALATA",
+        "MERCİMEK ÇORBA",
+        "AYRAN"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "dishes": [
+        "SULU KÖFTE",
+        "SEBZE GRATEN",
+        "TEL ŞEHRİYE ÇORBASI",
+        "BROWNİ"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "dishes": [
+        "ETLİ GÜVEÇ",
+        "PİRİNÇ PİLAVI",
+        "EZOGELİN ÇORBA",
+        "MEVSİM SALATA"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "dishes": [
+        "BARBUNYA PİLAKİ",
+        "KARIŞIK KIZARTMA",
+        "ALACA ÇORBA",
+        "PEMBE GÜZELİ SALATASI"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "dishes": [
+        "EKŞİLİ KÖFTE",
+        "BULGUR PİLAVI",
+        "YAYLA ÇORBA",
+        "MEVSİM SALATASI"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "dishes": [
+        "TAS KEBABI",
+        "YOĞURTLU HALKA SALATALIK",
+        "HAVUÇLU TEL ŞEHRİYE ÇORBASI",
+        "TRİLİÇE"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "dishes": [
+        "TAVUK PİRZOLA",
+        "SOSLU MAKARNA",
+        "MISIRLI AYRAN ÇORBASI",
+        "SALATA"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "dishes": [
+        "DANA HAŞLAMA",
+        "İÇ PİLAV",
+        "OSMANLI ÇORBASI",
+        "YOĞURT"
+      ]
+    }
+  ]
+}

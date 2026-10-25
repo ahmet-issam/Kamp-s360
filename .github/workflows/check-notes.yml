@@ -1,0 +1,30 @@
+name: Check notes rules
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - notes_update/**
+      - .github/workflows/check-notes.yml
+  pull_request:
+    paths:
+      - notes_update/**
+      - .github/workflows/check-notes.yml
+permissions:
+  contents: read
+jobs:
+  notes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: '3.10.8'
+      - name: Parse screen syntax
+        run: dart format --output=none notes_update/lib/features/notes_screen.dart
+      - name: Check note search and topic matching
+        run: |
+          dart analyze notes_update/lib/core/note_rules.dart notes_update/scripts/test_note_rules.dart
+          dart notes_update/scripts/test_note_rules.dart

@@ -1,0 +1,69 @@
+name: Update campus announcements
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 */2 * * *'
+  push:
+    paths:
+      - 'scripts/collect_news.py'
+      - 'tests/**'
+      - '.github/workflows/update-news.yml'
+  pull_request:
+    paths:
+      - 'scripts/collect_news.py'
+      - 'tests/**'
+      - '.github/workflows/update-news.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test announcement parsing
+        run: python -m unittest discover -s tests -v
+      - name: Check official sources from GitHub
+        if: github.event_name == 'push'
+        run: python scripts/collect_news.py
+
+  publish:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    concurrency:
+      group: campus-news-publisher
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check publishing secret
+        env:
+          NEWS_INGEST_TOKEN: ${{ secrets.NEWS_INGEST_TOKEN }}
+        run: |
+          python - <<'PY'
+          import os
+          import sys
+          token = os.environ.get('NEWS_INGEST_TOKEN', '').strip()
+          if not 32 <= len(token) <= 512:
+              sys.exit('Add repository secret NEWS_INGEST_TOKEN with the same value as Supabase.')
+          PY
+      - name: Collect details and publish
+        env:
+          NEWS_INGEST_TOKEN: ${{ secrets.NEWS_INGEST_TOKEN }}
+          NEWS_PUBLISH_URL: https://mnrmromfbffzajncvzyd.supabase.co/functions/v1/official-news
+          PYTHONUNBUFFERED: '1'
+        run: python scripts/collect_news.py --publish

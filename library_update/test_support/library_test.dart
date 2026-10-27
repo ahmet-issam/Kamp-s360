@@ -33,7 +33,9 @@ void main() {
   });
   testWidgets('Return form validates, creates account task, and completion removes pending state', (tester) async {
     final app = AppController();
-    await tester.pumpWidget(MaterialApp(home: AppScope(controller: app, child: const LibraryReturnForm())));
+    await tester.pumpWidget(AppScope(controller: app, child: const MaterialApp(home: Scaffold(body: LibraryReturnsView()))));
+    await tester.tap(find.text('İade hatırlatması ekle'));
+    await tester.pumpAndSettle();
     await tester.tap(find.text('Kaydet'));
     await tester.pump();
     expect(find.text('Kitap adını yazın.'), findsOneWidget);
@@ -42,8 +44,7 @@ void main() {
     await tester.pumpAndSettle();
     expect(app.tasks.single.title, 'Algoritmalar');
     expect(app.tasks.single.id.startsWith('library_return_'), true);
-    await tester.pumpWidget(MaterialApp(home: AppScope(controller: app, child: const Scaffold(body: LibraryReturnsView()))));
-    await tester.pumpAndSettle();
+    await tester.ensureVisible(find.byType(Checkbox));
     await tester.tap(find.byType(Checkbox));
     await tester.pumpAndSettle();
     expect(app.tasks.single.done, true);

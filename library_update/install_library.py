@@ -72,7 +72,7 @@ def main():
     if not args.apply:
         print('Preview only. Use --apply to install.')
         return
-    backup = root / 'backups' / ('library_' + datetime.now().strftime('%Y%m%d_%H%M%S_%f'))
+    backup = root.parent / (root.name + '_backups') / ('library_' + datetime.now().strftime('%Y%m%d_%H%M%S_%f'))
     # Complete preflight above before writing any project file.
     for name in changed:
         target = root / name

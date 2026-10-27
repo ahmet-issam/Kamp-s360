@@ -1,0 +1,31 @@
+name: Check library update
+on:
+  push:
+    paths: ['library_update/**', 'scripts/collect_library.py', 'tests/test_collect_library.py', '.github/workflows/check-library.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  collector:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - run: python -m unittest discover -s tests -p test_collect_library.py
+  flutter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - run: python library_update/test_support/prepare_harness.py
+      - run: flutter pub get
+        working-directory: library_flutter_check
+      - run: flutter analyze lib/core/library_repository.dart lib/core/library_rules.dart lib/features/library_screen.dart scripts/test_library_rules.dart
+        working-directory: library_flutter_check
+      - run: dart scripts/test_library_rules.dart
+        working-directory: library_flutter_check
+      - run: flutter test test/library_test.dart test/reminder_service_test.dart
+        working-directory: library_flutter_check

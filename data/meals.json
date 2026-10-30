@@ -1,204 +1,195 @@
 {
   "schema_version": 1,
   "source_url": "https://sks.bingol.edu.tr/yemek-listesi",
-  "checked_at": "2026-10-30T06:25:40.711537+00:00",
+  "checked_at": "2026-10-30T13:31:14.918083+00:00",
   "items": [
     {
-      "date": "2026-10-01",
-      "dishes": [
-        "PATLICAN MUSAKKA",
-        "BULGUR PİLAVI",
-        "OSMANLI ÇORBASI",
-        "CACIK"
-      ]
-    },
-    {
-      "date": "2026-10-02",
-      "dishes": [
-        "ORMAN KEBABI",
-        "ŞEHRİYELİ PİRİNÇ PİLAVI",
-        "ERZİNCAN ÇOEBASI",
-        "ŞEKERPARE"
-      ]
-    },
-    {
-      "date": "2026-10-05",
-      "dishes": [
-        "ETLİ NOHUT",
-        "PİRİNÇ PİLAVI",
-        "KREMALI MANTAR ÇORBASI",
-        "TURŞU"
-      ]
-    },
-    {
-      "date": "2026-10-06",
-      "dishes": [
-        "PİLİÇ BAGET HAŞLAMA",
-        "CEVİZLİ ERİŞTE",
-        "KAŞARLI DOMATES ÇORBASI",
-        "MEVSİM SALATASI"
-      ]
-    },
-    {
-      "date": "2026-10-07",
-      "dishes": [
-        "KURU KÖFTE(TURŞU GARNİLİ)",
-        "SOSLU MAKARNA",
-        "TEL ŞEHRİYE ÇORBASI",
-        "AYRAN"
-      ]
-    },
-    {
-      "date": "2026-10-08",
+      "date": "2026-11-02",
       "dishes": [
         "ÇOBAN KAVURMA",
-        "PİRİNÇ PİLAVI",
-        "EZOGELİN ÇORBASI",
-        "CEVİZLİ BAKLAVA"
-      ]
-    },
-    {
-      "date": "2026-10-09",
-      "dishes": [
-        "KIYMALI PATATES OTURTMA",
-        "YOĞURTLU MANTI",
-        "DÜĞÜN ÇORBASI",
-        "ÜZÜM"
-      ]
-    },
-    {
-      "date": "2026-10-12",
-      "dishes": [
-        "TAVUK ŞİNİTZEL/TURŞU GARNİ",
-        "KARIŞIK KIZARTMA",
-        "TEL ŞEHRİYE ÇORBASI",
-        "AYRAN"
-      ]
-    },
-    {
-      "date": "2026-10-13",
-      "dishes": [
-        "İZMİR KÖFTE",
-        "ARPA ŞEHRİYE PİLAVI",
-        "EZOGELİN ÇORBA",
-        "ŞEFTALİ"
-      ]
-    },
-    {
-      "date": "2026-10-14",
-      "dishes": [
-        "MEVSİM TÜRLÜ",
-        "NOHUTLU PİRİNÇ PİLAVI",
-        "MERCİMEK ÇORBASI",
-        "TULUMBA TATLISI"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "dishes": [
-        "PİLİÇ KÜLBASTI(SEBZE GARNİLİ)",
-        "YOĞURTLU MANTI",
-        "KAŞARLI DOMATES ÇORBASI",
-        "SALATA"
-      ]
-    },
-    {
-      "date": "2026-10-16",
-      "dishes": [
-        "ET SOTE",
-        "GÖKKUŞAĞI PİLAVI",
-        "YAYLA ÇORBASI",
-        "MEYVE SUYU"
-      ]
-    },
-    {
-      "date": "2026-10-19",
-      "dishes": [
-        "ETSİZ KURU FASULYE",
-        "PİRİNÇ PİLAVI",
-        "TURŞU",
-        "CACIK"
-      ]
-    },
-    {
-      "date": "2026-10-20",
-      "dishes": [
-        "TAVUK KAVURMA",
-        "PEYNİRLİ MAKARNA",
-        "KAŞARLI DOMATES ÇORBASI",
-        "RUS SALATASI"
-      ]
-    },
-    {
-      "date": "2026-10-21",
-      "dishes": [
-        "KIYMALI PİDE",
-        "MEVSİM SALATA",
+        "ŞEHRİYELİ PİRİNÇ PİLAVI",
         "MERCİMEK ÇORBA",
         "AYRAN"
       ]
     },
     {
-      "date": "2026-10-22",
+      "date": "2026-11-03",
       "dishes": [
-        "SULU KÖFTE",
-        "SEBZE GRATEN",
-        "TEL ŞEHRİYE ÇORBASI",
+        "TAVUK PİRZOLA/SEBZE GARNİLİ",
+        "KREMALI MAKARNA",
+        "YAYLA ÇORBA",
+        "PORTAKAL"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "dishes": [
+        "ÇİFTLİK KEBABI",
+        "PATATES SALATASI",
+        "EZOGELİN ÇORBA",
         "BROWNİ"
       ]
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-11-05",
       "dishes": [
-        "ETLİ GÜVEÇ",
-        "PİRİNÇ PİLAVI",
-        "EZOGELİN ÇORBA",
+        "SULU KÖFTE",
+        "BULGUR PİLAVI",
+        "HAVUÇLU TEL ŞEHRİYE ÇORBASI",
         "MEVSİM SALATA"
       ]
     },
     {
-      "date": "2026-10-26",
+      "date": "2026-11-06",
       "dishes": [
-        "BARBUNYA PİLAKİ",
-        "KARIŞIK KIZARTMA",
-        "ALACA ÇORBA",
-        "PEMBE GÜZELİ SALATASI"
+        "ETLİ KURU FASULYE",
+        "PİRİNÇ PİLAVI",
+        "HAVUÇ TARATOR",
+        "TURŞU"
       ]
     },
     {
-      "date": "2026-10-27",
+      "date": "2026-11-09",
       "dishes": [
-        "EKŞİLİ KÖFTE",
-        "BULGUR PİLAVI",
+        "ETLİ GÜVEÇ",
+        "GARNİTÜRLÜ PİRİNÇ PİLAVI",
+        "OSMANLI ÇORBASI",
+        "HAV. KIR. LAH. SALATA"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "dishes": [
+        "KIYMALI PİDE 290 KCAL",
+        "SALATA 40 KCAL",
+        "DÜĞÜN ÇORBASI 120 KCAL",
+        "AYRAN"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "dishes": [
+        "DANA HAŞLAMA",
+        "İÇ PİLAV",
+        "MERCİMEK ÇORBASI",
+        "YOĞURT"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "dishes": [
+        "KÖRİ SOSLU TAVUK KAVURMA /KÜP PAT.",
+        "KREMALI MANTARLI MAKARNA",
+        "DOMATES ÇORBASI",
+        "HİNDİS.CEVİZ.MUHALLEBİ"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "dishes": [
+        "TAVUK ŞİNİTZEL",
+        "CEVİZLİ ERİŞTE",
+        "DOMATES ÇORBASI",
+        "YOĞURTLU HALKA SALATALIK"
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "dishes": [
+        "ETLİ NOHUT",
+        "SEBZELİ BULGUR PİLAVI",
+        "HAYDARİ",
+        "TURŞU"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "dishes": [
+        "KURU KÖFTE/TURŞU GARNİLİ",
+        "SOSLU KARIŞIK KIZARTMA",
         "YAYLA ÇORBA",
         "MEVSİM SALATASI"
       ]
     },
     {
-      "date": "2026-10-28",
+      "date": "2026-11-18",
       "dishes": [
-        "TAS KEBABI",
-        "YOĞURTLU HALKA SALATALIK",
-        "HAVUÇLU TEL ŞEHRİYE ÇORBASI",
+        "KARIŞIK MUSAKKA",
+        "BULGUR PİLAVI",
+        "VİTAMİN ÇORBA",
+        "MANDALİNA"
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "dishes": [
+        "ET SOTE",
+        "PİRİNÇ PİLAVI",
+        "TEL ŞEHRİYE ÇORBASI",
         "TRİLİÇE"
       ]
     },
     {
-      "date": "2026-10-29",
+      "date": "2026-11-20",
       "dishes": [
-        "TAVUK PİRZOLA",
-        "SOSLU MAKARNA",
-        "MISIRLI AYRAN ÇORBASI",
-        "SALATA"
+        "SEBZELİ PİLİÇ KEBAP",
+        "PEYNİRLİ MAKARNA",
+        "ANDALOZ ÇORBASI",
+        "AYRAN"
       ]
     },
     {
-      "date": "2026-10-30",
+      "date": "2026-11-23",
       "dishes": [
-        "DANA HAŞLAMA",
-        "İÇ PİLAV",
-        "OSMANLI ÇORBASI",
-        "YOĞURT"
+        "TAVUK BUT",
+        "ARRABİTA SOSLU MAKARNA 320 KCAL",
+        "MAHLUTA ÇORBA 130 KCAL",
+        "ŞEKERPARE"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "dishes": [
+        "EKŞİLİ KÖFTE 320 KCAL",
+        "CEVİZLİ ERİŞTE",
+        "KREMALI MANTAR ÇORBASI",
+        "AKDENİZ SALATASI 40 KCAL"
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "dishes": [
+        "PİLİÇ KÜLBASTI 380 KCAL",
+        "ARPA ŞEHRİYE PİLAVI 320 KCAL",
+        "SARAY ÇORBASI 130 KCAL",
+        "AYRAN 60-70 KCAL"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "dishes": [
+        "TAS KEBABI",
+        "PİRİNÇ PİLAVI",
+        "KAŞARLI DOMATES ÇORBASI",
+        "PEMBE GÜZELİ SALATASI"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "dishes": [
+        "ETLİ KURU FASULYE",
+        "BULGUR PİLAVI",
+        "RUS SALATASI",
+        "TURŞU"
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "dishes": [
+        "TAVUK ŞİNİTZEL",
+        "YOĞURTLU MANTI",
+        "MERCİMEK ÇORBASI",
+        "PORTAKAL"
       ]
     }
   ]

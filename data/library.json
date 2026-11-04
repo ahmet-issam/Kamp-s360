@@ -4,15 +4,21 @@
   "sections": {
     "hours": {
       "url": "https://kutuphane.bingol.edu.tr/hakkimizda/calisma-saatleri/",
-      "checked_at": "2026-11-04T06:24:26.328137+00:00",
+      "checked_at": "2026-11-04T19:46:05.322802+00:00",
       "status": "ok",
       "data": "EĞİTİM - ÖĞRETİM DÖNEMİ\nHAFTA İÇİ\n08.00 / 21.00\nHAFTA SONU\n09.00 / 17.00\nSINAV HAFTASINDAN BİR HAFTA ÖNCE VE SINAV HAFTASI - HAFTA İÇİ\n08.00 / 22.00\nSINAV HAFTASINDAN BİR HAFTA ÖNCE VE SINAV HAFTASI - HAFTA SONU\n09.00 / 22.00\nRESMİ TATİL\nKAPALI\nYAZ TATİL DÖNEMİ\nHAFTA İÇİ\n08.00 / 19.00\nHAFTA SONU\nKAPALI\nDetaylı bilgi için Tıklayınız."
     },
     "news": {
       "url": "https://kutuphane.bingol.edu.tr/",
-      "checked_at": "2026-11-04T06:24:26.328137+00:00",
+      "checked_at": "2026-11-04T19:46:05.322802+00:00",
       "status": "ok",
       "data": [
+        {
+          "title": "Turcademy E-kitap Platformu Kullanıcı Eğitimi",
+          "url": "https://kutuphane.bingol.edu.tr/duyurular/turcademy-e-kitap-platformu-kullanici-egitimi/",
+          "published_at": "2026-11-04T00:00:00+03:00",
+          "body": "Değerli Kullanıcılar,\n\nBingöl Üniversitesi öğrencileri ve akademisyenlerine yönelik düzenlenecek olan Turcademy Kullanıcı Eğitimi, dijital akademik kaynakların daha etkin ve verimli kullanılması amacıyla gerçekleştirilecektir.\n\nEğitim kapsamında, Türkiye'nin dijital akademik yayın platformu Turcademy'nin sunduğu içerikler, platformun temel özellikleri, tarama ve erişim yöntemleri ile Turcademy Yapay Zeka Asistanı ve akademik çalışmalarda sağlayacağı avantajlar detaylı olarak ele alınacaktır.\n\nAkademik araştırmalarınızı destekleyecek bu eğitime tüm öğrenci ve akademisyenlerimizi davet ediyoruz.\n\nTarih: 5 Kasım Perşembe Saat: 15.00\n\nBağlantı: Tıklayınız\n\nToplantı Kimliği: 837 9950 4070\n\nParola: 107846"
+        },
         {
           "title": "Clarivate (Web of Science) Kasım Ayı Online Eğitimleri (1)",
           "url": "https://kutuphane.bingol.edu.tr/duyurular/clarivate-web-of-science-kasim-ayi-online-egitimleri-1/",
@@ -96,12 +102,6 @@
           "url": "https://kutuphane.bingol.edu.tr/duyurular/tedkik-veri-tabani-deneme-erisimi/",
           "published_at": "2026-09-28T00:00:00+03:00",
           "body": "Değerli Kullanıcılarımız, Veri Tabanı, 25.09.2026 - 15.11.2026 tarihleri arasında deneme erişimine açılmıştır. Makale, tez ve akademik projeleri, yüklenen DOCX formatındaki belgeler üzerinden 12 farklı analiz boyutunda (Biçimsel Yapı, Argüman Gücü, Literatür Analizi, Risk Analizi ve CONSORT 2025 Klinik Çalışma Standardı vb.) derinlemesine inceleyen yapay zeka destekli bir akademik değerlendirme portalıdır. Sistem; SCI, SSCI, AHCI ve Scopus dergi standartlarını baz alarak çalışmanızdaki zayıflıkları ve geliştirme fırsatlarını kanıtlarıyla birlikte raporlar. %100 Veri Güvenliği ve Gizlilik Hassasiyeti Akademik çalışmaların henüz yayınlanmadan önce ne kadar hassas ve gizli kalması gerektiğinin tam bilinciyle hareket ediyoruz. Bu nedenle güvenlik mimarimizi en üst düzey standartlarda tasarladık: Kapalı Devre Sunucu Yapısı: Tüm analiz süreci tamamen Tedkik'in kendi güvenli ve yalıtılmış altyapısı içinde başlar ve biter. Verileriniz asla harici bir bulut sistemine taşınmaz. Sıfır API Bağlantısı: Platformumuz dışarıdan hiçbir üçüncü taraf platformuna veya harici yapay zeka API'sine bağlı değildir. Sürecin hiçbir aşamasında dış dünyaya veri sızıntısı yapılması teknik olarak mümkün değildir. Model Eğitimi İçin Kullanılmaz: Yüklediğiniz belgeler ve analiz sonuçları kesinlikle yapay zeka modellerini eğitmek amacıyla kullanılmaz. Verileriniz sadece ve sadece sizin analizinize hizmet eder. KVKK Uyumu ve Belge…"
-        },
-        {
-          "title": "LibraryTürk E-Kitap Platformu Veri Tabanı Deneme Erişimi",
-          "url": "https://kutuphane.bingol.edu.tr/duyurular/libraryturk-e-kitap-platformu-veri-tabani-deneme-erisimi/",
-          "published_at": "2026-09-25T00:00:00+03:00",
-          "body": "Değerli Kullanıcılarımız,\n\nVeri Tabanı 25.09.2026-30.11.2026 tarihleriarasında deneme erişimine açılmıştır.\n\nLibrarytürk, basılı kitapların e-kitap formatına dönüştürülerek okuyuculara sunulduğu, yapay zeka destekli bir e-kitap portalıdır.\n\nPlatform Özellikleri\n\n15.000+ e-kitap\n\n70 seçkin yayınevi\n\nWOS uyumlu kategori\n\n30 güne kadar çevrimdışı kullanım\n\nVPN veya Proxy gerektirmeden kamera erişimi dışında\n\n10.000 den fazla 2020 sonrası basım akademik kaynak\n\nKullanım Koşulları\n\nGünlük Limit: Her kişinin maksimum 9 kitabı okunabilir/indirilebilir. (Deneme erişimi kapsamında)\n\nÇevrimdışı Kullanım: İndirilen e-kitaplar 30 gün internet bağlantısı olmadan okunabilir\n\nGeçerli E-posta Uzantıları:\n\nbingol.edu.tr\n\nogrmail.bingol.edu.tr\n\nErişim adresi: Tıklayınız\n\nKütüphaneTürk Genel Tanıtım Videoları: Tıklayınız\n\nKullanıcı Kılavuzu: Tıklayınız\n\nDetaylı bilgi için Deneme Erişimli Veri Tabanları'nı Tıklayınız"
         }
       ]
     }

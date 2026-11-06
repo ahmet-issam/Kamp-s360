@@ -4,15 +4,33 @@
   "sections": {
     "hours": {
       "url": "https://kutuphane.bingol.edu.tr/hakkimizda/calisma-saatleri/",
-      "checked_at": "2026-11-06T06:48:43.795438+00:00",
+      "checked_at": "2026-11-06T19:25:21.224850+00:00",
       "status": "ok",
       "data": "EĞİTİM - ÖĞRETİM DÖNEMİ\nHAFTA İÇİ\n08.00 / 21.00\nHAFTA SONU\n09.00 / 17.00\nSINAV HAFTASINDAN BİR HAFTA ÖNCE VE SINAV HAFTASI - HAFTA İÇİ\n08.00 / 22.00\nSINAV HAFTASINDAN BİR HAFTA ÖNCE VE SINAV HAFTASI - HAFTA SONU\n09.00 / 22.00\nRESMİ TATİL\nKAPALI\nYAZ TATİL DÖNEMİ\nHAFTA İÇİ\n08.00 / 19.00\nHAFTA SONU\nKAPALI\nDetaylı bilgi için Tıklayınız."
     },
     "news": {
       "url": "https://kutuphane.bingol.edu.tr/",
-      "checked_at": "2026-11-06T06:48:43.795438+00:00",
+      "checked_at": "2026-11-06T19:25:21.224850+00:00",
       "status": "ok",
       "data": [
+        {
+          "title": "Muteferriqa Eğitim Webinarı",
+          "url": "https://kutuphane.bingol.edu.tr/duyurular/muteferriqa-egitim-webinari/",
+          "published_at": "2026-11-06T00:00:00+03:00",
+          "body": "Değerli Araştırmacılar,\n\nTÜBİTAK ULAKBİM EKUAL kapsamında erişime açılan Muteferriqa veri tabanına yönelik, araştırmacıların platformu daha etkin kullanabilmelerini desteklemek amacıyla Kasım ayı içerisinde 5 adet eğitim webinarı organize edilmiştir.\n\nEğitimler Hakkında\n\nAkademik çalışmalarında kaynak çeşitliliğini ve araştırma yöntemlerini zenginleştirmek isteyen öğretim üyeleri, araştırmacılar, öğrenciler için özel olarak hazırlanmıştır. Eğitim süresince, Muteferriqa’nın sunduğu olanaklardan akademik araştırmalarınızda etkin ve verimli şekilde yararlanılabileceğine dair uygulamalı ve detaylı bilgiler paylaşılacaktır.\n\nFarklı gün ve saat seçenekleri sayesinde size en uygun oturuma katılabilirsiniz.\n\n06.11.2026 - Cuma - 15:00\n\nKayıt Linki : Tıklayınız\n\n11.11.2026 - Çarşamba - 11:00\n\nKayıt Linki: Tıklayınız\n\n16.11.2026 - Pazartesi - 15:00\n\nKayıt Linki: Tıklayınız\n\n19.11.2026 - Perşembe - 15:00\n\nKayıt Linki: Tıklayınız\n\n24.11.2026 - Salı - 11:00\n\nKayıt Linki: Tıklayınız"
+        },
+        {
+          "title": "Wiley Kasım-Aralık 2026 Eğitim Webinarları",
+          "url": "https://kutuphane.bingol.edu.tr/duyurular/wiley-kasim-aralik-2026-egitim-webinarlari/",
+          "published_at": "2026-11-06T00:00:00+03:00",
+          "body": "Değerli Misafirler, Araştırma bütünlüğünden yapay zekâya, açık erişimden Wiley Online Library arama ipuçlarına kadar farklı konularda oturumlar gerçekleştirilecektir. WILEY web semineri programı ve kayıt bağlantıları aşağıda yer almaktadır. Webinar dili: İngilizce Klinik bilgiden yayına: sağlık profesyonelleri için bir Rehber 4 Kasım 2026, Çarşamba | 19:00 | Kayıt Current Protocols: araştırmacılar için laboratuvar Rehberi 10 Kasım 2026, Salı | 19:00 | Kayıt Sağlık hizmetlerinde yapay zeka: uygulamadan Politikaya 12 Kasım 2026, Perşembe | 22:00 | Kayıt Bir klinisyenin gözünden yapay zeka: fırsatlar, zorluklar ve gelecek 17 Kasım 2026, Salı | 14:00 | Kayıt Dönüşüm anlaşmalarının geleceği: değişen koşullara uyum sağlamak 17 Kasım 2026, Salı | 19:00 | Kayıt STEM alanlarında ruh sağlığı: farkındalıktan harekete 2 Aralık 2026, Çarşamba | 17:00 | Kayıt Boolean operatörleriyle Wiley Online Library aramalarınızdan en iyi şekilde yararlanın 8 Aralık 2026, Salı| 10:00 | Kayıt Açık erişim, açık etki: akademik yayıncılığın geleceğine liderlik etmek 9 Aralık 2026, Çarşamba | 18:00 | Kayıt Yapay zeka çağında araştırmacılar akademik içeriklerle nasıl etkileşim kuruyor? Wiley Scholar Gateway'den eğilimler 15 Aralık 2026, Salı | 15:00 | Kayıt Yapay zeka çağında araştırmacılar…"
+        },
+        {
+          "title": "LEXIQAMUS Eğitim Webinarı (1)",
+          "url": "https://kutuphane.bingol.edu.tr/duyurular/lexiqamus-egitim-webinari-1/",
+          "published_at": "2026-11-06T00:00:00+03:00",
+          "body": "Değerli Kullanıcılar,\n\nTübitak Ulakbim ile yapılan anlaşma kapsamında tüm EKUAL üyelerine erişime açılan LexiQamus veritabanı, uzun soluklu ve titiz çalışmalar sonucunda tüm ekranları baştan tasarlanarak yenilenmiş ve LexiQamus 3.0 kullanıma sunulmuştur. Araştırmacıların yeni sürüm ile gelen yenilikleri yakından tanımalarını ve platformdan daha etkin şekilde yararlanmalarını sağlamak amacıyla bir webinar serisi düzenlenmektedir.\n\nEğitim serisi, başta Tarih, Edebiyat, İlahiyat, Dilbilim olmak üzere ilgili alanlarda çalışan tüm araştırmacılara açıktır.\n\nLEXIQAMUS Eğitim Webinarı kayıt bağlantıları aşağıda yer almaktadır.\n\nEğitim | 11 Kasım 2026, Çarşamba, Saat: 11:00-12:00\n\nToplantı kimliği: 817 9313 3776\n\nGiriş şifresi: 370228\n\nZoom bağlantısı\n\nEğitim | 19 Kasım 2026, Perşembe, Saat: 11:00-12:00\n\nToplantı kimliği: 871 2043 2334\n\nGiriş şifresi: 987952\n\nZoom bağlantısı\n\nEğitim | 26 Kasım 2026, Perşembe, Saat: 11:00-12:00\n\nToplantı kimliği: 863 0811 2601\n\nGiriş şifresi: 068522\n\nZoom bağlantısı"
+        },
         {
           "title": "Turcademy E-kitap Platformu Kullanıcı Eğitimi",
           "url": "https://kutuphane.bingol.edu.tr/duyurular/turcademy-e-kitap-platformu-kullanici-egitimi/",
@@ -84,24 +102,6 @@
           "url": "https://kutuphane.bingol.edu.tr/duyurular/ayeum-veri-tabani-deneme-erisimi/",
           "published_at": "2026-09-29T00:00:00+03:00",
           "body": "Değerli Kullanıcılarımız,\n\nVeri Tabanı, 29.09.2026 - 05.11.2026 tarihleri ​​arasında deneme erişimine açılmıştır.\n\nAyeum, sosyal, fen, sağlık ve eğitim bilimlerinde kullanılan nitel, nicel ve karma yöntemleri hakkında araştırmacılara yönelik çevrimiçi eğitim, yüz yüze eğitim ve danışmanlık hizmeti vermek üzere kurulmuş akademik bir eğitim platformudur. Yüksek lisans, doktora çalışmalarına, doktora araştırmacılarına, akademisyenlere, kamu kurumlarında ve kişiselleştirilmiş bilimsel araştırma yöntemleri ve bilimsel araştırma sürecinde kullanılan bilgisayar yazılımlarını ayrıntılı bir şekilde öğretmeyi sağlar. Çevrimiçi video eğitimleri en az doktora derecesine sahip, alanında uzman ve konularda hakim öğretim üyeleri tarafından verilmektedir.\n\nDeneme Erişimi açılan dersler: Tıklayınız\n\nAyeum nedir: Tıklayınız\n\nAyeum nasıl kullanılır: Tıklayınız\n\nErişim adresi: Tıklayınız\n\nDetaylı bilgi için Deneme Erişimli Veri Tabanları'nı Tıklayınız"
-        },
-        {
-          "title": "Assistin.ai (Akademik Araştırma ve İçerik Analiz Platformu) Veri Tabanı Deneme Erişimi",
-          "url": "https://kutuphane.bingol.edu.tr/duyurular/assistin-ai-akademik-arastirma-ve-icerik-analiz-platformu-veri-tabani-deneme-erisimi/",
-          "published_at": "2026-09-29T00:00:00+03:00",
-          "body": "Değerli Kullanıcılarımız, Veri Tabanı 29.09.2026-08.11.2026 tarihleriarasında deneme erişimine açılmıştır. Assistin.ai, Aicoor tarafından akademik ve kurumsal üretkenliği artırmak amacıyla geliştirilmiş, yapay zekâ destekli bir “hepsi bir arada” platformdur. Chat, AI Detector, Research ve ChatPDF olmak üzere dört temel modülden oluşur. Kullanıcılar; metin oluşturma, belge analizi, kaynak tarama ve yapay zekâ tespiti gibi işlemleri tek bir arayüz üzerinden gerçekleştirebilirler. Platform, ChatGPT, Claude, Gemini, DeepSeek ve Grok gibi gelişmiş LLM modellerini destekler. Kullanıcı dostu tasarımı, kredi tabanlı sistemi ve kurumsal entegrasyon desteğiyle; akademisyenlerden öğrencilere, araştırmacılardan yöneticilere kadar herkes için üretken bir yapay zekâ asistanı sunar. Çalışmalarınıza Hız Kazandıracak 4 Temel Modül: AI Detector (Yapay Zeka İçerik Tespiti): Metinlerdeki yapay zekâ kullanım oranını en gelişmiş algoritmalarla tespit edin. Küresel rakiplerine göre 10 kat daha düşük hata oranıyla çalışır ve paragraf bazlı detaylı rapor sunar. Assistin Research (Doğrulanabilir Araştırma): Halüsinasyona yer vermeyen, 250 milyondan fazla akademik kaynağı tarayarak tamamen atıf, kaynakça ve DOI bağlantılı akademik sonuçlar üreten akıllı literatür tarama robotudur. Nbook (Dokümanlarla Konuşun): PDF dokümanlarınızı saniyeler içinde analiz edin, doğrudan belgenize sorular sorarak sayfa referanslı yanıtlar ve özetler alın. Assistin LLMs (Çoklu Sohbet ve…"
-        },
-        {
-          "title": "PrepSub Veri Tabanı Deneme Erişimi",
-          "url": "https://kutuphane.bingol.edu.tr/duyurular/prepsub-veri-tabani-deneme-erisimi/",
-          "published_at": "2026-09-28T00:00:00+03:00",
-          "body": "Değerli Kullanıcılarımız,\n\nVeri Tabanı, 25.09.2026 - 15.11.2026 tarihleri ​​arasında deneme erişimine açılmıştır.\n\nGünümüzde üniversitelerde akademisyenler ve araştırmacılar; literatür taramasından veri analizine, metin çevirisinden akademik intihal ve AI tespitine kadar pek çok farklı yapay zeka aracına yoğun olarak ihtiyaç duymaktadır. PrepSub tüm bu çözümleri tek noktadan çözen bütünleşik bir akademik yapay zeka platformudur.\n\nSunulan Araçlar ve Kategorileri İçinde Platform\n\nLiteratür Tarama ve Haritalama: Elicit, Consensus, Connected Papers, Manus\n\nOkuma, Akademik Analiz ve Özetleme: ChatPDF, Humata, SciSummary, Elicit Reports\n\nSistematik Derleme ve Meta-Analiz: Meta Analizi Ortaya Çıkarma (Sistematik İnceleme), NotebookLM\n\nYapay Zeka İçerik Tespiti ve İntihal Analizi: Copyleaks, ZeroGPT, GPTZero, Pangram\n\nGelişmiş Dil Modelleri (LLM) ve Akıllı Araştırma: ChatGPT, Claude, Gemini, DeepSeek, Grok, Perplexity AI\n\nÇeviri, Yazım ve Dil İyileştirme: DeepL, DeepL Write, DeepL Voice\n\nHazır Sunum ve Veri Görselleştirme: Gamma Uygulaması, Datawrapper\n\nSes, Video ve Üretken Medya: ElevenLabs, Descript\n\nErişim adresi: Tıklayınız\n\nDetaylı bilgi için deneme erişimli veri tabanlarını Tıklayınız"
-        },
-        {
-          "title": "Tedkik Veri Tabanı Deneme Erişimi",
-          "url": "https://kutuphane.bingol.edu.tr/duyurular/tedkik-veri-tabani-deneme-erisimi/",
-          "published_at": "2026-09-28T00:00:00+03:00",
-          "body": "Değerli Kullanıcılarımız, Veri Tabanı, 25.09.2026 - 15.11.2026 tarihleri arasında deneme erişimine açılmıştır. Makale, tez ve akademik projeleri, yüklenen DOCX formatındaki belgeler üzerinden 12 farklı analiz boyutunda (Biçimsel Yapı, Argüman Gücü, Literatür Analizi, Risk Analizi ve CONSORT 2025 Klinik Çalışma Standardı vb.) derinlemesine inceleyen yapay zeka destekli bir akademik değerlendirme portalıdır. Sistem; SCI, SSCI, AHCI ve Scopus dergi standartlarını baz alarak çalışmanızdaki zayıflıkları ve geliştirme fırsatlarını kanıtlarıyla birlikte raporlar. %100 Veri Güvenliği ve Gizlilik Hassasiyeti Akademik çalışmaların henüz yayınlanmadan önce ne kadar hassas ve gizli kalması gerektiğinin tam bilinciyle hareket ediyoruz. Bu nedenle güvenlik mimarimizi en üst düzey standartlarda tasarladık: Kapalı Devre Sunucu Yapısı: Tüm analiz süreci tamamen Tedkik'in kendi güvenli ve yalıtılmış altyapısı içinde başlar ve biter. Verileriniz asla harici bir bulut sistemine taşınmaz. Sıfır API Bağlantısı: Platformumuz dışarıdan hiçbir üçüncü taraf platformuna veya harici yapay zeka API'sine bağlı değildir. Sürecin hiçbir aşamasında dış dünyaya veri sızıntısı yapılması teknik olarak mümkün değildir. Model Eğitimi İçin Kullanılmaz: Yüklediğiniz belgeler ve analiz sonuçları kesinlikle yapay zeka modellerini eğitmek amacıyla kullanılmaz. Verileriniz sadece ve sadece sizin analizinize hizmet eder. KVKK Uyumu ve Belge…"
         }
       ]
     }
